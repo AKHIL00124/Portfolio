@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Global</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" alt="Global">
+    <p>Global</p>
+  </a>
+  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/logo.png" alt="Global">
+            <p>Akhil Karri</p>
+          </a>
+          <button class="header--cta cta">Hire Me</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Projects</span></li>
+            <li><span>About</span></li>
+            <li><span>Contact</span></li>
+            <li><span>Hire Me</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Hi, I’m Akhil Karri<br>An Aspiring Software Engineer</h1>
+                <button class="cta">Hire Me
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/introduction-visual.png" alt="Welcome">
+              </div>
+              <!-- <div class="intro--options">
+                <a href="#0">
+                  <h3>Metiew &amp; Smith</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>Fantasy interactive</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>Paul &amp; shark</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+              </div> -->
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Projects</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="data:image/png;base64,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" alt="Victory">
+                      </div>
+                      <p class="slider--item-title">AI Self-Driving Car Simulation</p>
+                      <!-- <p class="slider--item-description">Compiler</p> -->
+                      <ul class="slider--item-description">
+                        <li>Built deep CNN (inspired by NVIDIA) to mimic human driving</li>
+                        <li>Processed multi-camera video &amp; telemetry for supervised regression</li>
+                        <li>Tested in Udacity simulator, achieved smooth, accurate control</li>
+                      </ul>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="data:image/png;base64,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" alt="Metiew and Smith">
+                      </div>
+                      <p class="slider--item-title">E-Commerce Clone</p>
+                      <ul class="slider--item-description">
+                        <li>Engineered 10+ features including real-time payments, admin analytics, OAuth login</li>
+                        <li>Reduced DB load by 40% using Redis caching</li>
+                        <li>Secured APIs with JWT token validation & rate limiting</li>
+                        <li>Deployed via Docker & CI/CD workflows for zero-downtime updates</li>
+                      </ul>
+                      <!-- <p class="slider--item-description">Engineered 10+ features including real-time payments, admin analytics, OAuth login <br>
+                        Reduced DB load by 40% using Redis caching<br>
+                        Secured APIs with JWT auth & rate limiting<br>
+                        Deployed via Docker & CI/CD for zero-downtime updates</p> -->
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QDxAQEBAQEBAVEBAQEBAVEA8QEBAQFRUWFhURFRUYHSggGRslGxUWITEhJSorLi4uGB8zODMtNygtLysBCgoKDQ0OGxAQGy8hHSYrLTMtKy0vMSsrLy0tNy0rLS0tLS0wNysrLS0tLS0vLS0tNi0tLS0vLS0tLS0tKzctNf/AABEIAOAA4AMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABAECAwYHBQj/xABMEAACAQICBQgGAw0ECwAAAAAAAQIDEQQSBSExQVEGBxMyYXGBkSJSobHB0RRC8DRTYnJ1gpKio7KzwtIjQ8PhFyUzNUVUhIWT0+L/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIEAwX/xAAhEQEAAgEEAgMBAAAAAAAAAAAAAQIRAwQSMTJRITNBYf/aAAwDAQACEQMRAD8A7iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtq1Ixi5SajFK7k2kkuLZ4NflroyEnGWKgpLU1lqNp+ETyedzEzho+nGMnHpMbhKMrNxbhKp6UbrWthqOJwVKpT6KUVk1WivRtbZa2w5amrFJhx1daNOYzDf3y90V/zcP0K39JbLnB0QtuMgvzK39JzJ8mMI/qS/8AJP5knR2h6GHlKVOLUmsrblKWrbZXKTua/ik7qn465ofTWFxkHPC16daKeWTjK7jLbaS2xduJPOWchHk03UjFKKqaPz1ElbNKFZKMn2pN+bOpnatuUZd6W5ViQAFlgAAAAAAAAAj47G0qFN1Ks404LbJ+5Le+xASAaRLnHoZ7KhVdO/XvBSa4qP8AmbBorlJg8TZU60c7/u5ehO/BJ7fC4HrgAAAAAAAAAAAANC55PuHDav8AiWC8PTZ4J7/PIn9Bw3ZpLBX/AE2eAZNz3DFu+4UABlY2fkY/9ert0bNftk/gdVOVcjFfTq7NGzf7ZL4nVT0dLwh6mj9cAAOjqAi43SNCgr1q1Kkvw6kYX7rvWa9j+cXRVG98Rma9WE7eEmlH2gbWDmmJ56dFx6sasu90l+7KR5tTn3wi6uHb76s1/hMDroOPLn4w2/C/tqn/AKiVh+fLAS61GUe6cn74IDpOnNILC4XEYlq6o0atZrXrUIuVvYcW0hp+pjpdLOqqi+rGL/s6a4Rju8dfE2LT/Odo3G4DGYanKcatXC16VPM6SjnnBxV2p3Su+BxhaPxNN5oxmvwoSUv3XcDe7hs1DDcoq9N5asVPjdZJ+dvge1hNO0Kn1ujlwn6PlLZ7SRtejeVWOw1lCtKUV/d1L1IW4K+tLuaNr0Zzn0HaOKpSpP75C9Sn3uPWXcsxzt13ZXtJbr6/aQcW47k13tMgfQui9L4bFRzYetTqrflkm49ko7YvvJp8t9NOElOEpQmurOMnCce6S1o2jQvOjpLDWVRwxdNfVq+jUtwVWK9slIDvgNM5J84+C0hUhQy1KGIlfLSmk4zcYuUlCcdT1JvXZ6nqNzAAAAAANF54vuCh+UcF/EIej9FKrTcm5RbjUlDqtSytR2bbZnZv5Ezni+4MP+UcF/ENfzPi9627nuMu4mImMse5mItGYe3T5OSeZOazeio2hV6zm4vMnG6j6L9K1t5ZQ0BJ2c5pLK5NRjOTt0bnHLqtPYr5b2ueP0ktbzO7Vm7u7XBjO9Wt6tmt6u7gZ+VfTPyp6ZuRf+/f+2T/AI8TqNatGEXOcowgleUpNRjFcW3qRxzRWm6GA0t9IxDlGl9AdNySzWk62bX2Wi/YaLp7lrpHS1SSuoU1N5bNqjTjuai9srb3d69xu0vCG/R+uHXeVHO1gcJeNH+3nuldwp+Gpyl4K3ac20rzlaYxt1RzUab2OP8AYQ8087/SfceFgtD0oPNK9Wptc569fYmemmdHV5b0biarcq+Knd62oej5y2vxMtHk9hlrcXN8ZSk7k6VdLVtfBa3/AJFOlm9iUe93fkvmApaOoR6tKmvzIkmNOK2RXkiNaW+b7kope6/tHR9s/wBOfzAmZI8F5FssPTe2EX3xTIzppb5/p1H8SsFfZKa73K/lIBV0NhZ7aNPwjlfmiHLkzSWujUq0X+DN29pOTqLZJP8AGj8Vb3FyxTXWi12x9NfP2AeTXwOOgrZqWLh6tSCUvB/Nnl1Xh28tWnUwdTtTnSfx8tRuNOspK6aa4p3LMRShUi4zjGUeDSaA1VQxOHWanPNS2qUHnptdq3fbWZ6Wnb6qkfzo/J/My4jQ9Si3Uwk3HfKjJ3hLuv8AHzRBSp4huKj0GIV703qhN9nB/bXtAm/SIT6sk+zY/Iw1GeVKEoyyyTUk9aJkHtJG5c09LNprBv1fpE/2FSP8x9FHAOZeF9LRfq4avL9yP8x3+5AAAAAANF54vuCh+UcF/ENeZsPPF9wUPyjgv4hrzMm57hh3fcKELS2kFQp5tTk9UI8XxfYiY2c/5YY2VSpKEXqzdDHsiuu/F3Xijlo05W+XLQ0+dvnp42Jq1MbVd5PoVK8pb6kvlwW7yPXowjCKjFJJKyRgwtJQiord7zOmeg9PDLmMWZz2Nxjx2Sl8l7e4tnrst219vBGS4F0IpKyVi+5jTKpgZLlbmO5VMDIpFZTe1tviy1wktbjJLi00W3AmYenSabnO1k/RSWa99XWsmu53I+Yx6itwE6avmV4y9Zb+x8V3l1Ou75ZapbrdWS4r5GNRirWVnveaTv5iav70+D4gZpyPI0tgY1Vfq1F1ZrU+65Pc9RgqyA8mDdeOSpqrw2S2Z4riYo7+8z4uLUlUj1o6+9b15FMakmpLZJXA3rmU1aSqy4YOqvF1aPyZ3WnVucD5o6lsTXa29FCPg5X+B2/AybSA9OLLiyBeAAAGscvdD1sdg5UKcbTz06tKpePoVaclKLae1areJoz0NpxangsPJ72sS0n2pZXY6+zFUZW1K27hS2nW3lDkb0VpnfgqC/6n/wCTm2J1zjJ8ZebcT6WxFQ+Z8Rdxlbam2vDX8hWla9QU0618YSEyqkR6dRNJrY0mi9SLLpO5P7bQmY6c7rL23XfvXj8CtwMlytzFcrmAy3JOBxEYN31Nqyla+XwIWYZgPYWKim26l1uSTblq36rHnVJpttKybbS4LgYcwzAZcwzGLMMwGTMHIx5hfy3gKkreRGqTK1al2RqkwLZy1l9PAVK/R0qa9LVr3Rila79hFlK8ox3t38Fv9xu3Nth1Uxs77I0Ju359MDaeQnJeOGV1dylbPN7ZW2LsWvYdMwdOyRAwVFRSsj1KTAkxKlsWXAAABRmGoZmY5oDysYfNU52l2PafTGOjqZ8y4qLUmntTafegMCl0Usr/ANnJ3hLcpPbB+9ElTImdWcZLNF7UyizRV03Up8ds49jX1veBNUzKqt9vn8yFCqmrp3XEuUwJ1xchqoZFWAk3FzAqyK9KuIGe4uYelXEp0yAz3FyO65ZKuwJMppGGpWv3GBzLHMDJKZHrVVFNt2SLZ1ddldy3RW1/JdpFqylCrB1FGS+rFO6i+L7QJWFi1epNWlJWjHfGPb2s3HmvxmTSUYffKNWn4q1T/DNOc23dns8gsZRpaQoVa9WFKEFWlnnJQjd05Rtd7/TA+h6EidSZr2hNM4XFZvo9elXyZc/R1IzyZr5b22Xs/Jnv0QJkDIYqZlAAACjKNFxQCFjafos+beV2G6LH4qFrLppyXdN5vifTdaF0cM52tEuGIVdLVKKUn3PU/C+vvRMRlGXPZpMsVOaTlFOy2tbF3lzJ+jpPLOzs04vzv8iEvNzxbu04y9aO/vW/2mRKW6012an5P5kqrTpyfpwcH68LLzhs8rEargXFZ4yjOKaV1dSTey8X3PZcJW9Jbbq77r3l2YshVktTb7mXLK/qpd3o+4IXZhmGSPGS8b+8p0a9aX6vyAuzFMxblXrPyRR5fWn+r8gL8xbKpbbqLHOHCT75Ne4s6e3VjGPbbX5gZU29ib8LLzeotkkutNL8GOt+ZgnWk9rb93kY2wJHT2VoLKt72yfa2Q8T1qf45fmLK/Wp/jP3ATIs3vm45M0a8KlfEUYVISeSjCcVJZYt5p2fGWr83tNQ0JoyeKrRpxulqc5erH58DuvJ3R8adOEIxUYxioxitiilZICfyf0FhcLm+j0KdHPlz5IqObLe17cLvzNioxI+GpE6nEDJBGQtSLgAAAAACjNZ5Y6CWKoSjZZldxvsfY+x/bYbOWTjcmJwTGXyzprRM8PNxknlu0m1rg98X9u0gUqkoPNF29qa4M+huVvJGGJi5RSz218Jdj+e7t2HGdOcmK2HlK0XZbYta0uPd27C2M/MKxOPiXnU8XTnqmsj4rXB+G1F1eio05NOLUpQs0007ZvmedKNnZpxfBhFVmRFckeHwLEy9MB0S7Sjoriy65S5Axuj2lrori/YZWy1sCNXgkla+0wMkYp6l3/BkVgC2ewqzNQws59WPi9SCUdL3no6N0LUxMotPLGL2uLea+23d8T2dD8mnJpzWbst6PlvOkaC5O2s2reAQj8keT8aUUoxstre+T4tnQ8DhbJGPR+j1FLUexSpWAUqZnigkXAEVAAAAAAAAAAtaPN0roWjiI2nFPg9jT4prWj1AByblFzct3lTSqLhqjNfB/q+Jz/SPJatSla0k90ZJxb7r7fC59LuJExWjqVRNThGSe1NJp+DLcs9q8cdPlytg6sOtB+RgcrbUfRWO5D4Wp1Yyp/iy1Lui7x9hr2N5s0+pUi+yVO7800vYMR7Mz6cWzrtKdIvtc6fiea+v9WNF/nyj/KQKnNlit1JeE0/e0Mf0y590i+1ykqiN9/0ZYv72l3zX9Rmpc1mLe1Ul3znf3MYTlzWtK68THGk3uOv4Tmjl9eskuCgn7dRsOjua3B02nPPVa9aWryRGIMuOaC5OVcRZqDUd8rbexHQ9D8irWzI6dg9B0aUVGEIpLUkkTYYSK3BLWNGcnKdNL0T38PgYrcTo00i9IgYoUkjIkXAClioAAAAAAAAAAAAAAAAAFLCxUAW5RlRcALMiK5S4AW5StioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Robot Roomba Create3</p>
+                      <ul class="slider--item-description">
+                        <li>Built Autonomous navigation for roomba robot with features like undocking, path following, docking</li>
+                        <li>Implemented obstacle avoidance &amp; sensor fusion</li>
+                        <li>Applied filtering techniques to handle sensor noise</li>
+                      </ul>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="data:image/jpeg;base64,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" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Compiler</p>
+                      <ul class="slider--item-description">
+                        <li>Built a compiler for the bC language in C++ (C-like without structs/extra keywords)</li>
+                        <li>Used flex and yacc to generate scanner/parser and build an AST for type &amp; error checking</li>
+                        <li>Generated assembly instructions and ran them on a Tiny Machine</li>
+                      </ul>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <ul>
+                  <h2><li>Graduated from University of Idaho with B.S. Computer Science </li></h2>
+                  <h2><li>Teaching Assistant for CS-120</li></h2>
+                  <h2><li>Currently Intern at a Start-Up</li></h2>
+                </ul>
+                <!-- <h2>graduated from University of Idaho with B.S. Computer Science <br>Worked as a Teaching Assistant <br>Working as Intern at a Start-Up</h2> -->
+                <!-- <a href="#0">Career
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a> -->
+                <!-- <img src="assets/img/about-visual.png" alt="About Us"> -->
+              </div>
+              <!-- <div class="about--options">
+                <a href="#0">
+                  <h3>Winners</h3>
+                </a>
+                <a href="#0">
+                  <h3>Philosophy</h3>
+                </a>
+                <a href="#0">
+                  <h3>History</h3>
+                </a>
+              </div> -->
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact" style="background-image: url(./assets/img/contact-visual.png); background-size: 50%;">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <!-- <p>Moscow, ID USA</p> -->
+                    <a href="tel:+12083103260">+1 (208) 310-3260</a>
+                    <a href="mailto:akhilkarri2002@gmail.com">akhilkarri2002@gmail.com</a>
+                  </div>
+                  <ul class="modal--options">
+                    <li><a href="mailto:akhilkarri2002@gmail.com">Contact Me</a></li>
+                    <li><a href="https://www.linkedin.com/in/akhilkarri/">LinkedIn</a></li>
+                    <li><a href="https://github.com/AKHIL00124">GitHub</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="hire">
+              <h2>I want to be</h2>
+              <!-- checkout formspree.io for easy form setup -->
+              <form class="work-request">
+                <div class="work-request--options">
+                  <span class="options-a">
+                    <input id="opt-1" type="checkbox" value="app design">
+                    <label for="opt-1">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Software Engineer
+                    </label>
+                    <input id="opt-2" type="checkbox" value="graphic design">
+                    <label for="opt-2">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Firmware Engineer
+                    </label>
+                    <input id="opt-3" type="checkbox" value="motion design">
+                    <label for="opt-3">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Data Scientist
+                    </label>
+                  </span>
+                  <span class="options-b">
+                    <input id="opt-4" type="checkbox" value="ux design">
+                    <label for="opt-4">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      ML Engineer
+                    </label>
+                    <input id="opt-5" type="checkbox" value="webdesign">
+                    <label for="opt-5">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Game Developer
+                    </label>
+                    <input id="opt-6" type="checkbox" value="marketing">
+                    <label for="opt-6">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Robotics Engineer
+                    </label>
+                  </span>
+                </div>
+                <div class="work-request--information">
+                  <div class="information-name">
+                    <input id="name" type="text" spellcheck="false">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="information-email">
+                    <input id="email" type="email" spellcheck="false">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <input type="submit" value="Send Request">
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Projects</li>
+    <li>About</li>
+    <li>Contact</li>
+    <li>Hire Me</li>
+  </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+</body>
+</html>
